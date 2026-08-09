@@ -11,6 +11,14 @@
 
 ---
 
+## Current Development Preview
+
+![ScientiaPilot Dashboard](screenshots/scientiapilot-dashboard-v0.2.png)
+
+*ScientiaPilot development dashboard — current M2.5 foundation build.*
+
+---
+
 ## What is ScientiaPilot?
 
 Scientific research is usually fragmented across many disconnected tools:
