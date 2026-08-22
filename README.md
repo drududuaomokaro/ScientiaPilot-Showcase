@@ -4,8 +4,8 @@
 
 **ScientiaPilot** is an emerging research publication operating system designed to guide researchers through the complete scholarly workflow — from defining a research question to preparing publication-ready work.
 
-> **Development status:** Active development — M2.5 foundation complete  
-> **Current focus:** Dataset Intelligence  
+> **Development status:** Parked after local first release (August 2026)  
+> **Next controlled phase:** Private VPS beta, multi-user authentication and validated external services  
 > **Public repository:** Product showcase only  
 > **Core implementation:** Private
 
@@ -15,7 +15,7 @@
 
 ![ScientiaPilot Dashboard](screenshots/scientiapilot-dashboard-v0.2.png)
 
-*ScientiaPilot development dashboard — current M2.5 foundation build.*
+*ScientiaPilot development dashboard — an earlier product preview. The current local first release has progressed substantially beyond this image.*
 
 ---
 
@@ -70,15 +70,17 @@ The current product architecture supports the following research lifecycle:
 ↓  
 **09 Discussion & Conclusion**  
 ↓  
-**10 Manuscript Assembly**  
+**10 Unified References**  
 ↓  
-**11 Integrity & Quality Control**  
+**11 Manuscript Assembly**  
 ↓  
-**12 Target Formatting**  
+**12 Integrity & Quality Control**  
 ↓  
-**13 Publication Preparation**  
+**13 Target Formatting**  
 ↓  
-**14 Submission / Revision / Tracking**
+**14 Publication Preparation**  
+↓  
+**15 Submission / Revision / Tracking**
 
 The workflow is intentionally **non-linear**.
 
@@ -166,28 +168,31 @@ Additional services will be introduced as the product develops.
 
 ---
 
-# Next Milestone
+# Local First Release
 
-## M3 — Dataset Intelligence 🚧
+The completed local first release includes:
 
-The next development phase will enable ScientiaPilot to understand research datasets.
+- CSV, Excel and SPSS dataset ingestion with metadata inspection, versioning and SHA-256 provenance
+- dataset-grounded publication directions and research questions
+- citation-backed Introduction and Literature Review generation with a unified References stage
+- reproducible observational protocol and locked statistical analysis outputs
+- automated Results, Discussion, manuscript assembly and DOCX/RIS export
+- publication-style tables and figures, journal-discovery signals and optional Elsevier/Scopus metrics
+- version history, restore controls, audit trail, research groups and local owner authentication
+- OpenAI-powered stage Copilot when a backend API key is configured
+- Winston AI screening integration, with pre-scan credit checks and sanitised provider errors
+- a USD credit ledger and Super Admin testing mode; testing remains free and live checkout is not enabled
 
-Initial targets include:
+## Parked Release Boundary
 
-- CSV upload
-- Microsoft Excel upload
-- SPSS `.sav` upload
-- dataset metadata extraction
-- variable/column detection
-- variable labels where available
-- data-type recognition
-- row and column counts
-- missing-data inspection
-- dataset versioning
-- dataset provenance
-- connection of datasets to research projects
+ScientiaPilot is intentionally parked after the local first release. It is not publicly deployed and does not yet accept public sign-ups or payments.
 
-Dataset Intelligence will establish the foundation for the future statistical-analysis engine.
+Before the private VPS beta, the next controlled work is:
+
+1. Multi-user registration, account recovery and role controls.
+2. VPS/domain/HTTPS deployment, backups and recovery testing.
+3. Validation of OpenAI, scholarly and screening provider credentials.
+4. Paystack and international payment checkout/webhook validation before enabling live billing.
 
 ---
 
